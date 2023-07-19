@@ -76,6 +76,10 @@ img {
     margin-left: 12px;
 }
 
+.appstore-item:hover {
+    opacity: 0.8;
+}
+
 .appstore-item:first-child {
     margin-left: 0;
 }
