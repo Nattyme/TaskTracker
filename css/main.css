@@ -2,13 +2,24 @@
   box-sizing: border-box;  
 }
 
+html {
+    height: 100%;
+}
+
 body {
     margin: 0;
+    height: 100%;
     font-family: 'Manrope', sans-serif;
 }
 
 img {
     display: block;
+}
+
+.main-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 /* Header */
@@ -139,26 +150,33 @@ text-decoration: none;
     display: flex;
     align-items: center;
     height: 72px;
-    background-color:  #0B0D17;
+    background:  #0B0D17;
     color: #D9DBE1;
 }
 
 .footer-container {
     width: 1110px;
-    margin: 0 auto;
     display: flex;
+    margin: 0 auto;
     justify-content: space-between;    
     align-items: center;
-
 }
 
 .footer-copyright {
     font-size: 14px;
-
 }
-
 
 .footer-socials {
-
+    display: flex;
 }
+
+.footer-socials-item {
+    margin-left: 16px;
+}
+
+.footer-socials-item:hover {
+    opacity: 0.8;
+}
+
+
      
